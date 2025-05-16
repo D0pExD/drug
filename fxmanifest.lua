@@ -20,19 +20,6 @@ server_scripts {
 ui_page 'web/index.html'
 
 files {
-    'web/index.html',
-    'web/**.js',
-    'web/**.css',
-    'web/**.png',
-    'web/**.jpg',
-    'web/**.gif',
-    'web/**.svg',
-    'web/**.json',
-    'web/**/*.js',
-    'web/**/*.css',
-    'web/**/*.png',
-    'web/**/*.jpg',
-    'web/**/*.svg',
     'web/**/*'
 }
 
