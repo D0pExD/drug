@@ -4,8 +4,6 @@
 RegisterNetEvent('druglab:giveReward')
 
 AddEventHandler('druglab:giveReward', function(item, amount)
-
-
     local source = source
     -- You can implement your own inventory system here
     if Config.Constants.DEBUG then
@@ -13,12 +11,7 @@ AddEventHandler('druglab:giveReward', function(item, amount)
     end
 end)
 
-
-
-
 -- Handle police alerts - 
-
-
 RegisterNetEvent('dispatch:policeAlert')
 
 AddEventHandler('dispatch:policeAlert', function(coords)
